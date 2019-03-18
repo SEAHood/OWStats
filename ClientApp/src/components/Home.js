@@ -4,18 +4,22 @@ export class Home extends Component {
   static displayName = Home.name;
 
   render () {
-    return (
-      <div>
-        <h1>Hello</h1>
-        <p>Welcome to the awesome team page of the best team in the world, the team consists of:</p>
-        <ul>
-          <li><a href='https://get.asp.net/'>seahood</a></li>
-          <li><a href='https://facebook.github.io/react/'>VitaminD</a></li>
-          <li><a href='https://facebook.github.io/react/'>Townzingtown</a></li>
-          <li><a href='https://facebook.github.io/react/'>PleaseStop</a></li>
-          <li><a href='https://facebook.github.io/react/'>struan</a></li>
-        </ul>
-      </div>
+      return (
+        <div>
+            <div class="profile-title-panel-container">
+                <div class="panel">
+                    <h1>seahood#2314</h1>
+                </div>
+            </div>
+            <div class="profile-stats-panel-container">
+                <div class="panel panel-something">
+                    <h1>seahood#2314</h1>
+                </div>
+                <div class="panel panel-something-else">
+                    <h1>seahood#2314</h1>
+                </div>
+            </div>
+        </div>
     );
   }
 }
